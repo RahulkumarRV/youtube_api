@@ -109,6 +109,6 @@ def searchVideoByDescription(description):
 
 
 if __name__ == "__main__":
-    # callGoogleAPI()
-    dic = updateList()
+    callGoogleAPI()
+    #dic = updateList()
     app.run(debug=True)
